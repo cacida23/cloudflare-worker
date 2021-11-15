@@ -1,6 +1,6 @@
 name = "worker-typescript-template"
 type = "javascript"
-zone_id = ""
+zone_id = "fa7afa8f36016b04cff5a36c760f85b3"
 account_id = "202903ead8e16e3c89cb6f2b25722f33"
 route = ""
 workers_dev = true
