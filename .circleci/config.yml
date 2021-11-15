@@ -15,9 +15,9 @@ jobs:
     steps:
       - checkout
       - run: npm install
-      - run: npm install -g @cloudflare/wrangler --registry.npmjs.org
-      - run: echo SjYfCJvcXsilVTYMu9nHH6YnM4weywqxkErVhwdG | wrangler config
-      - run: wrangler publish
+      - run: npm install -d @cloudflare/wrangler --registry.npmjs.org
+      - run: echo SjYfCJvcXsilVTYMu9nHH6YnM4weywqxkErVhwdG | npx wrangler config
+      - run: npx wrangler publish
       - run: echo success!
 
 # Invoke jobs via workflows
