@@ -1,0 +1,244 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "object",
+            "properties": {
+                "timestamp": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "error_code": {
+                    "type": "integer"
+                },
+                "error_message": {
+                    "type": "null"
+                },
+                "elapsed": {
+                    "type": "integer"
+                },
+                "credit_count": {
+                    "type": "integer"
+                },
+                "notice": {
+                    "type": "null"
+                }
+            }
+        },
+        "data": {
+            "type": "object",
+            "properties": {
+                "1027": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "integer"
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "symbol": {
+                            "type": "string"
+                        },
+                        "slug": {
+                            "type": "string"
+                        },
+                        "num_market_pairs": {
+                            "type": "integer"
+                        },
+                        "date_added": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "tags": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "max_supply": {
+                            "type": "null"
+                        },
+                        "circulating_supply": {
+                            "type": "number"
+                        },
+                        "total_supply": {
+                            "type": "number"
+                        },
+                        "is_active": {
+                            "type": "integer"
+                        },
+                        "platform": {
+                            "type": "null"
+                        },
+                        "cmc_rank": {
+                            "type": "integer"
+                        },
+                        "is_fiat": {
+                            "type": "integer"
+                        },
+                        "last_updated": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "quote": {
+                            "type": "object",
+                            "properties": {
+                                "USD": {
+                                    "type": "object",
+                                    "properties": {
+                                        "price": {
+                                            "type": "number"
+                                        },
+                                        "volume_24h": {
+                                            "type": "number"
+                                        },
+                                        "volume_change_24h": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_1h": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_24h": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_7d": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_30d": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_60d": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_90d": {
+                                            "type": "number"
+                                        },
+                                        "market_cap": {
+                                            "type": "number"
+                                        },
+                                        "market_cap_dominance": {
+                                            "type": "number"
+                                        },
+                                        "fully_diluted_market_cap": {
+                                            "type": "number"
+                                        },
+                                        "last_updated": {
+                                            "type": "string",
+                                            "format": "date-time"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "1839": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "integer"
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "symbol": {
+                            "type": "string"
+                        },
+                        "slug": {
+                            "type": "string"
+                        },
+                        "num_market_pairs": {
+                            "type": "integer"
+                        },
+                        "date_added": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "tags": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "max_supply": {
+                            "type": "integer"
+                        },
+                        "circulating_supply": {
+                            "type": "integer"
+                        },
+                        "total_supply": {
+                            "type": "integer"
+                        },
+                        "is_active": {
+                            "type": "integer"
+                        },
+                        "platform": {
+                            "type": "null"
+                        },
+                        "cmc_rank": {
+                            "type": "integer"
+                        },
+                        "is_fiat": {
+                            "type": "integer"
+                        },
+                        "last_updated": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "quote": {
+                            "type": "object",
+                            "properties": {
+                                "USD": {
+                                    "type": "object",
+                                    "properties": {
+                                        "price": {
+                                            "type": "number"
+                                        },
+                                        "volume_24h": {
+                                            "type": "number"
+                                        },
+                                        "volume_change_24h": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_1h": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_24h": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_7d": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_30d": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_60d": {
+                                            "type": "number"
+                                        },
+                                        "percent_change_90d": {
+                                            "type": "number"
+                                        },
+                                        "market_cap": {
+                                            "type": "number"
+                                        },
+                                        "market_cap_dominance": {
+                                            "type": "number"
+                                        },
+                                        "fully_diluted_market_cap": {
+                                            "type": "number"
+                                        },
+                                        "last_updated": {
+                                            "type": "string",
+                                            "format": "date-time"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

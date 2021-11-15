@@ -1,0 +1,15 @@
+name = "worker-typescript-template"
+type = "javascript"
+zone_id = ""
+account_id = "202903ead8e16e3c89cb6f2b25722f33"
+route = ""
+workers_dev = true
+kv_namespaces = [
+    { binding = "FRIST", preview_id = "ecc42eae43734d2cbc30d9a03fbad3aa", id = "ecc42eae43734d2cbc30d9a03fbad3aa" }
+]
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
+
